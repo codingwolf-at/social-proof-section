@@ -24,7 +24,7 @@ main {
 }
 
 .container {
-    padding: 3rem;
+    margin: 2rem 0rem 0rem 0rem;
 }
 
 /* TOP SECTION */
@@ -79,12 +79,54 @@ main {
 
 
 /* BOTTOM SECTION */
+.bottom-container {
+    padding: 4rem 5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
 
+.bottom-container .card {
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background-color: var(--primary-magenta);
+    width: 330px;
+    color: white;
+}
 
+.card .card-profile {
+    display: flex;
+}
 
+.card-profile img {
+    border-radius: 50%;
+    width: 2.5rem;
+}
+
+.card-profile .card-profile-text {
+    padding: 0rem 1rem;
+    transform: translateY(0.3rem);
+}
+
+.card-profile-text span {
+    color: var(--primary-pink);
+    font-size: 0.7rem;
+}
+
+.card .card-text {
+    padding: 2rem 0rem 0rem 0rem;
+}
+
+.bottom-container .card-two {
+    transform: translateY(1rem);
+}
+
+.bottom-container .card-three {
+    transform: translateY(2rem);
+}
 
 /* FOOTER */
 .attribution {
+    margin: 1rem;
     font-size: 11px;
     text-align: center;
 }
