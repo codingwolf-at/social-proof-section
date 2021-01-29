@@ -145,14 +145,29 @@ main {
     .top-container {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 0;
+    }
+
+    .top-container .top-left {
+        /* text-align: center; */
+    }
+
+    .top-left h1 {
+        font-size: 1.5rem;
     }
 
     .top-right .star {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .top-right .star-two {
+        transform: translateX(0);
+    }
+    
+    .top-right .star-one {
+        transform: translateX(0);
     }
 
     .bottom-container {
@@ -160,6 +175,10 @@ main {
         flex-direction: column;
         padding: 1.5rem;
         justify-content: center;
+    }
+
+    .bottom-container .card {
+        /* width: 80%; */
     }
 
     .attribution {
