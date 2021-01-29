@@ -134,3 +134,35 @@ main {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+/* MEDIA QUERIES FOR MOBILE VIEW */
+@media screen and (max-width: 480px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .top-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .top-right .star {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bottom-container {
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem;
+        justify-content: center;
+    }
+
+    .attribution {
+        margin-top: 3rem;
+    }
+}
